@@ -1,0 +1,836 @@
+Part 1 Introduction 1
+Chapter 1 Basic Concepts 5
+1.1 Pseudocode 5
+Algorithm Header 6
+Purpose, Conditions, and Return 7
+Statement Numbers 7
+Variables 8
+Statement Constructs 8
+Sequence 8
+Selection 9
+Loop 9
+Algorithm Analysis 9
+Pseudocode Example 9
+skjdks
+1.2 The Abstract Data Type 10
+Atomic and Composite Data 10
+Data Type 11
+Data Structure 11
+Abstract Data Type 12
+1.3 Model for an Abstract Data Type 14
+ADT Operations 14
+ADT Data Structure 15
+
+1.4 ADT Implementations 15
+Array Implementations 15
+Linked List Implementations 15
+Pointers to Linked Lists 17
+1.5 Generic Code for ADTs 17
+Pointer to void 18
+Pointer to Function 23
+Defining Pointers to Functions 24
+Using Pointers to Functions 24
+
+1.6 Algorithm Efficiency 28
+Linear Loops 29
+Logarithmic Loops 29
+Nested Loops 30
+Linear Logarithmic 31
+Quadratic 31
+Dependent Quadratic 31
+Big-O Notation 32
+Standard Measures of Efficiency 33
+Big-O Analysis Examples 35
+Add Square Matrices 35
+Multiply Square Matrices 36
+
+1.7 Key Terms 38
+1.8 Summary 38
+1.9 Practice Sets 39
+Exercises 39
+Problems 41
+Projects 42
+
+
+
+
+Chapter 2 Recursion 45
+2.1 Factorial—A Case Study 45
+Recursion Defined 46
+Iterative Solution 47
+Recursive Solution 47
+
+2.2 Designing Recursive Algorithms 48
+The Design Methodology 48
+Limitations of Recursion 50
+Design Implementation—Reverse
+Keyboard Input 50
+
+2.3 Recursive Examples 52
+Greatest Common Divisor 52
+GCD Design 53
+GCD C Implementation 53
+Fibonacci Numbers 54
+Design 55
+Fibonacci C Implementation 56
+Contents v
+Prefix to Postfix Conversion 57
+Design 58
+Prefix to Postfix
+C Implementation 61
+The Towers of Hanoi 65
+Recursive Towers of Hanoi Design 65
+Towers of Hanoi
+C Implementation 69
+2.4 Key Terms 71
+2.5 Summary 71
+2.6 Practice Sets 72
+Exercises 72
+Problems 74
+Projects 75
+
+
+
+
+
+
+
+
+
+
+Part II Linear Lists 77
+Chapter 3 Stacks 79
+3.1 Basic Stack Operations 80
+Push 80
+Pop 80
+Stack Top 81
+
+3.2 Stack Linked List
+Implementation 83
+Data Structure 83
+Stack Head 83
+Stack Data Node 83
+Stack Algorithms 84
+Create Stack 84
+Push Stack 85
+Pop Stack 86
+Stack Top 87
+Empty Stack 88
+Full Stack 89
+Stack Count 89
+Destroy Stack 89
+
+
+
+3.3 C Language Implementations 90
+Insert Data 92
+Push Stack 93
+Print Stack 93
+Pop Character 94
+3.4 Stack ADT 95
+Data Structure 95
+ADT Implementation 95
+Stack Structure 95
+Create Stack 96
+Push Stack 97
+Pop Stack 98
+Stack Top 99
+Empty Stack 100
+Stack Count 101
+Destroy Stack 101
+3.5 Stack Applications 102
+Reversing Data 103
+Reverse a List 103
+Convert Decimal to Binary 106
+Parsing 107
+Postponement 110
+Infix to Postfix Transformation 110
+Evaluating Postfix Expressions 118
+Backtracking 122
+Goal Seeking 122
+Eight Queens Problem 125
+3.6 How Recursion Works 134
+3.7 Key Terms 138
+3.8 Summary 138
+3.9 Practice Sets 139
+Exercises 139
+Problems 141
+Projects 143
+
+
+
+
+
+
+Chapter 4 Queues 147
+4.1 Queue Operations 148
+Enqueue 148
+Dequeue 148
+Queue Front 149
+Queue Rear 150
+Queue Example 150
+4.2 Queue Linked List Design 151
+Data Structure 152
+Queue Head 152
+Queue Data Node 153
+Queue Algorithms 153
+Create Queue 154
+Enqueue 154
+Dequeue 155
+Retrieving Queue Data 156
+Empty Queue 157
+Full Queue 157
+Queue Count 158
+Destroy Queue 158
+vi Contents
+4.3 Queue ADT 159
+Queue Structure 159
+Queue ADT Algorithms 159
+4.4 Queuing Theory 166
+4.5 Queue Applications 168
+Categorizing Data 168
+Categorizing Data Design 169
+Categorizing Data—
+C Implementation 170
+Queue Simulation 175
+Events 176
+Data Structures 176
+Output 177
+Simulation Algorithm 178
+4.6 Key Terms 183
+4.7 Summary 183
+4.8 Practice Sets 184
+Exercises 184
+Problems 187
+Projects 188
+
+
+
+
+
+Chapter 5 General Linear Lists 193
+5.1 Basic Operations 193
+Insertion 193
+Deletion 194
+Retrieval 194
+Traversal 194
+5.2 Implementation 195
+Data Structure 195
+Head Node 196
+Data Node 196
+Algorithms 197
+Create List 197
+Insert Node 198
+Delete Node 202
+List Search 205
+Retrieve Node 208
+Empty List 208
+Full List 209
+List Count 210
+Traverse List 210
+Destroy List 212
+5.3 List ADT 213
+ADT Functions 214
+Create List 216
+Add Node 217
+Internal Insert Function 217
+Remove Node 219
+Internal Delete Function 220
+Search List 221
+Internal Search Function 222
+Retrieve Node 224
+Empty List 225
+Full List 225
+List Count 226
+Traverse 226
+Destroy List 227
+5.4 Application 228
+Data Structure 228
+Application Functions 229
+Mainline 229
+Print Instructions 229
+Build List 231
+Process User Requests 233
+Get User Choice 234
+Print List 235
+Search List 236
+Compare Year 237
+Testing Insert and Delete Logic 238
+Testing Insert Logic 238
+Testing Delete Logic 238
+
+
+5.5 Complex Implementations 239
+Circularly Linked Lists 239
+Doubly Linked Lists 240
+Insertion 241
+Deletion 243
+Multilinked Lists 244
+Insert 246
+Delete 247
+5.6 Key Terms 248
+5.7 Summary 248
+5.8 Practice Sets 249
+Exercises 249
+Problems 251
+Projects 253
+
+
+
+
+
+
+
+
+
+
+Part III Non-Linear Lists 263
+Chapter 6 Introduction to Trees 265
+
+6.1 Basic Tree Concepts 265
+Terminology 266
+User Representation 268
+Contents vii
+
+
+6.2 Binary Trees 270
+Properties 271
+Height of Binary Trees 271
+Balance 272
+Complete and Nearly Complete
+Binary Trees 273
+Binary Tree Traversals 273
+Depth-first Traversals 274
+Breadth-first Traversals 278
+Expression Trees 280
+Infix Traversal 280
+Postfix Traversal 281
+Prefix Traversal 282
+Huffman Code 282
+
+
+
+6.3 General Trees 287
+Insertions into General Trees 287
+FIFO Insertion 287
+LIFO Insertion 287
+Key-sequenced Insertion 287
+General Tree Deletions 288
+Changing a General Tree to a
+Binary Tree 288
+
+
+6.4 Key Terms 290
+6.5 Summary 290
+6.6 Practice Sets 292
+Exercises 292
+Problems 295
+Projects 296
+
+
+
+Chapter 7 Binary Search Trees 299
+7.1 Basic Concepts 299
+7.2 BST Operations 301
+Traversals 301
+Searches 302
+Find the Smallest Node 302
+Find the Largest Node 303
+BST Search 303
+Insertion 305
+Deletion 307
+
+
+
+7.3 Binary Search Tree ADT 309
+Data Structure 311
+Head Structure 311
+Node Structure 311
+Algorithms 311
+Create a BST 313
+Insert a BST 313
+Internal Insert Function 314
+Delete a BST 315
+Internal Delete Function 316
+Retrieve a BST 318
+Internal Retrieve Function 319
+Traverse a BST 320
+Internal Traverse Function 321
+Empty a BST 321
+Full BST 322
+BST Count 322
+Destroy a BST 323
+Internal Destroy Function 323
+
+7.4 BST Applications 324
+Integer Application 324
+Student List Application 328
+Program Design 329
+7.5 Threaded Trees 334
+7.6 Key Terms 336
+7.7 Summary 336
+7.8 Practice Sets 337
+Exercises 337
+Problems 339
+Projects 339
+
+
+
+
+
+
+
+Chapter 8 AVL Search Trees 341
+8.1 AVL Tree Basic Concepts 341
+AVL Tree Balance Factor 342
+Balancing Trees 343
+Case 1: Left of Left 344
+Case 2: Right of Right 345
+Case 3: Right of Left 346
+Case 4: Left of Right 347
+
+
+8.2 AVL Tree Implementations 348
+Insert into AVL Tree 348
+AVL Tree Insert Algorithm 350
+AVL Tree Left Balance
+Algorithm 351
+Rotate Algorithms 351
+AVL Tree Delete Algorithm 352
+Delete Right Balance 354
+Adjusting the Balance Factors 355
+
+
+
+8.3 AVL Tree Abstract Data Type 356
+AVL Tree Data Structure 357
+Head Structure 357
+Node Structure 357
+viii Contents
+AVL Tree Algorithms 357
+Create an AVL Tree 359
+Insert an AVL Tree 360
+Delete an AVL Tree 365
+Retrieve an AVL Tree 370
+Traverse an AVL Tree 372
+Internal Traverse Function 373
+Empty an AVL Tree 373
+Full AVL Tree 374
+AVL Tree Count 374
+Destroy AVL Tree 375
+Internal Destroy Function 375
+8.4 Application—Count Words 376
+Data Structure 376
+Program Design 376
+Count Words Program 377
+Build List 378
+Get Word 380
+Compare Words 381
+Print Words 382
+8.5 Key Terms 384
+8.6 Summary 384
+8.7 Practice Sets 384
+Exercises 384
+Problems 386
+Projects 386
+
+
+
+
+
+
+
+
+
+
+Chapter 9 Heaps 389
+9.1 Basic Concepts 389
+Definition 389
+Maintenance Operations 391
+Reheap Up 391
+Reheap Down 392
+9.2 Heap Implementation 394
+Algorithms 396
+Reheap Up 396
+Reheap Down 396
+Build a Heap 397
+Insert a Node into a Heap 398
+Delete a Node from a Heap 400
+9.3 Heap ADT 401
+Heap Structure 401
+Heap Algorithms 402
+Create a Heap 403
+Insert a Heap 404
+Internal Reheap Up Function 405
+Delete a Heap 405
+Internal Reheap Down
+Function 406
+9.4 Heap Applications 407
+Selection Algorithms 408
+Priority Queues 409
+Design 409
+Implementation 411
+9.5 Key Terms 417
+9.6 Summary 417
+9.7 Practice Sets 418
+Exercises 418
+Problems 420
+Projects 420
+
+
+
+
+
+
+
+
+
+
+Chapter 10 Multiway Trees 423
+10.1 M-way Search Trees 423
+10.2 B-trees 425
+B-tree Implementation 427
+B-tree Insertion 427
+Insert Node 429
+Search Node 432
+Split Node 433
+Insertion Summary 435
+B-tree Deletion 435
+Delete Node 437
+Delete Entry 439
+Delete Mid 439
+Reflow 440
+Balance 442
+Combine 444
+Traverse B-tree 446
+B-tree Search 448
+10.3 B-tree ADT 449
+B-tree Data Structure 449
+Head Structure 449
+Node Structure 450
+Header File 451
+Algorithms 453
+B-tree Search 453
+Internal Search Function 454
+B-tree Traverse 455
+Internal Traverse Function 456
+B-tree Insert 457
+Contents ix
+Internal Insert Function 459
+Internal Split Node Function 460
+B-tree Delete 462
+Internal Delete Function 463
+Internal Delete Middle
+Function 465
+Internal Reflow Function 466
+Internal Borrow Left or Right 467
+Internal Combine Nodes
+Function 469
+10.4 Simplified B-trees 470
+2-3 Tree 470
+2-3-4 Tree 470
+10.5 B-tree Variations 471
+B*tree 471
+B+tree 471
+10.6 Lexical Search Tree 472
+Tries 473
+Trie Structure 474
+Trie Search 474
+10.7 Key Terms 476
+10.8 Summary 476
+10.9 Practice Sets 477
+Exercises 477
+Problems 478
+Projects 479
+
+
+
+
+
+
+
+
+
+
+Chapter 11 Graphs 481
+11.1 Basic Concepts 481
+11.2 Operations 483
+Insert Vertex 483
+Delete Vertex 484
+Add Edge 484
+Delete Edge 485
+Find Vertex 485
+Traverse Graph 485
+Depth-first Traversal 485
+Breadth-first Traversal 487
+11.3 Graph Storage Structures 488
+Adjacency Matrix 488
+Adjacency List 489
+11.4 Graph Algorithms 490
+Create Graph 491
+Insert Vertex 492
+Delete Vertex 493
+Insert Arc 493
+Delete Arc 495
+Retrieve Vertex 496
+Depth-first Traversal 496
+Breadth-first Traversal 498
+Destroy Graph 499
+11.5 Graph ADT 500
+Data Structure 501
+Head Structure 501
+Vertex Structure 501
+Arc Structure 501
+Algorithms 502
+Graph Insert Vertex 503
+Graph Delete Vertex 505
+Graph Insert Arc 506
+Graph Delete Arc 508
+Graph Depth-first Traversal 509
+Graph Breadth-first Traversal 511
+
+
+
+11.6 Networks 513
+Minimum Spanning Tree 514
+Minimum Spanning Tree
+Example 515
+Minimum Spanning Tree Data
+Structure 515
+Minimum Spanning Tree
+Pseudocode 517
+Shortest Path Algorithm 518
+Shortest Path Manual Example 519
+Shortest Path Pseudocode 520
+11.7 Key Terms 523
+11.8 Summary 523
+11.9 Practice Sets 524
+Exercises 524
+Problems 526
+Projects 527
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Part IV Sorting and Searching 53
+
+Chapter 12 Sorting 533
+12.1 Sort Concepts 533
+Sort Order 534
+Sort Stability 535
+Sort Efficiency 535
+Passes 535
+Sorts and ADTs 536
+x Contents
+12.2 Selection Sorts 537
+Straight Selection Sort 537
+Selection Sort Algorithm 537
+Heap Sort 539
+Heap Sort Algorithm 541
+Selection Sort Efficiency 541
+Straight Selection Sort 541
+Heap Sort 542
+Summary 542
+Selection Sort Implementation 543
+Selection Sort C Code 543
+Heap Sort C Code 544
+12.3 Insertion Sorts 547
+Straight Insertion Sort 547
+Straight Insertion Sort Example 547
+Insertion Sort Algorithm 547
+Shell Sort 549
+Shell Sort Algorithm 550
+Selecting the Increment Size 553
+Insertion Sort Efficiency 554
+Straight Insertion Sort 554
+Shell Sort 554
+Summary 555
+Insertion Sort Implementation 556
+Straight Insertion Sort 556
+Shell Sort 557
+12.4 Exchange Sorts 558
+Bubble Sort 558
+Bubble Sort Algorithm 559
+Quick Sort 560
+Quick Sort Algorithm 562
+Exchange Sort Efficiency 567
+Bubble Sort 567
+Quick Sort 567
+Summary 568
+Exchange Sort Implementation 569
+Bubble Sort Code 569
+Quick Sort Code 570
+
+
+12.5 External Sorts 573
+Merging Ordered Files 573
+Merging Unordered Files 575
+The Sorting Process 576
+Natural Merge 577
+Balanced Merge 577
+Polyphase Merge 580
+Sort Phase Revisited 580
+
+
+12.6 Quick Sort Efficiency 583
+Worst Case 584
+Best Case 584
+Average Case 586
+12.7 Key Terms 588
+12.8 Summary 588
+12.9 Practice Sets 590
+Exercises 590
+Problems 592
+Projects 593
+
+
+
+
+
+
+
+
+
+
+Chapter 13 Searching 597
+13.1 List Searches 597
+Sequential Search 597
+Sequential Search Algorithm 599
+Variations on Sequential
+Searches 600
+Sentinel Search 600
+Probability Search 601
+Ordered List Search 602
+Binary Search 603
+Target Found 603
+Target Not Found 605
+Binary Search Algorithm 606
+Analyzing Search Algorithms 607
+Sequential Search 607
+Binary Search 608
+13.2 Search Implementations 609
+Sequential Search in C 609
+Binary Search In C 610
+13.3 Hashed List Searches 611
+Basic Concepts 611
+Hashing Methods 613
+Direct Method 613
+Subtraction Method 615
+Modulo-division Method 615
+Digit-extraction Method 616
+Midsquare Method 617
+Folding Methods 617
+Rotation Method 618
+Pseudorandom Hashing 619
+One Hashing Algorithm 619
+13.4 Collision Resolution 620
+Open Addressing 623
+Linear Probe 624
+Quadratic Probe 625
+Contents xi
+Pseudorandom Collision
+Resolution 626
+Key Offset 627
+Linked List Collision Resolution 628
+Bucket Hashing 629
+Combination Approaches 630
+Hashed List Example 630
+13.5 Key Terms 636
+13.6 Summary 636
+13.7 Practice Sets 638
+Exercises 638
+Problems 639
+Projects 640
+Appendix A ASCII Tables 643
+
+
+
+
+
+
+
+
+
+
+
+A.1 ASCII Codes (Long Form) 643
+A.2 ASCII Table (Short Form) 648
+Appendix B Structure Charts 649
+B.1 Structure Chart Symbols 650
+Modules 650
+Reading Structure Charts 651
+Common Modules 652
+Conditional Calls 652
+Exclusive Or 652
+Loops 653
+Conditional Loops 653
+Recursion 653
+Data Flows and Flags 654
+B.2 Structure Chart Rules 655
+Appendix C Integer and Float Libraries 657
+C.1 limits.h 657
+C.2 float.h 658
+Appendix D Selected C Libraries 661
+D.1 Function Index 661
+D.2 Type Library 664
+D.3 Math Library 664
+D.4 Standard I/O Library 668
+General I/O 668
+Formatted I/O 669
+Character I/O 669
+File I/O 670
+String I/O 670
+System File Control 670
+D.5 Standard Library 671
+Math Functions 671
+Memory Functions 671
+Program Control 671
+System Communication 672
+Conversion Functions 672
+D.6 String Library 672
+Memory Functions 672
+String Functions 673
+D.7 Time Library 673
+Appendix E Mathematical Series and Recursive
+Relations 675
+E.1 Arithmetic Series 675
+E.2 Geometric Series 677
+E.3 Harmonic Series 678
+E.4 Recursive Relations 679
+Appendix F Array Implementations of Stacks
+and Queues 681
+F.1 Stack ADT 681
+Array Data Structure 682
+Create Stack 683
+Push Stack 684
+Pop Stack 684
+Stack Top 685
+Empty Stack 686
+Full Stack 686
+Stack Count 686
+Destroy Stack 687
+F.2 Queue ADT 688
+Array Queues Implementation 689
+Create Queue 691
+Enqueue 692
+Dequeue 693
+Queue Front 693
+Queue Rear 694
+Full Queue 694
+Empty Queue 694
+Queue Count 695
+Destroy Queue 695
+Glossary 697
+Index 709
+xii
+Preface
